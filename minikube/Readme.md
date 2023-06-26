@@ -1,5 +1,5 @@
 
-# Implemetn Shell scripts for EC2 User data level
+# Implement Shell scripts for EC2 User data level
 
 When launching your EC2 instances, you can provide the respective script as the user data. The instance will execute the user data script during startup and install Minikube automatically.
 
@@ -28,3 +28,17 @@ Please keep in mind that Minikube is primarily intended for local development an
 Keep in mind that the t2.micro instance has limited resources, and running a full-fledged Kubernetes cluster with multiple nodes and services might not perform well on this instance type. Minikube is primarily intended for local development and testing purposes, so it's recommended to use a larger instance type or consider using a managed Kubernetes service like EKS if you require a production-ready Kubernetes environment on AWS.
 
 Additionally, ensure that you have followed the necessary security configurations and best practices when deploying a server on AWS.
+
+
+===================================================================================================================================================================
+
+
+# system requirements for Minikube:
+
+Operating System: Linux, macOS, or Windows
+Minimum Requirements:
+CPU: 2 CPU cores
+Memory: 2GB RAM
+Disk Space: 20GB free disk space
+Virtualization: VT-x/AMD-v virtualization support enabled in BIOS
+Network: Internet access to download necessary packages and container images

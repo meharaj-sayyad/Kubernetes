@@ -4,3 +4,17 @@ Make sure to save the master node script as master_install.sh and the worker nod
 Please note that these scripts focus on installing Kops and its dependencies. After installation, you will need to follow the Kops documentation to create and manage your Kubernetes cluster using Kops.
 
 As always, review the official Kops documentation for any updates or changes specific to your environment and adjust the scripts accordingly.
+
+
+
+==================================================================================================================================================
+
+
+# system requirements for KOPS (Kubernetes Operations):
+
+Operating System: Linux, macOS, or Windows (with limitations)
+Minimum Requirements:
+CPU: 2 CPU cores
+Memory: 2GB RAM
+Disk Space: 20GB free disk space
+Network: Access to AWS APIs and services
