@@ -1,5 +1,7 @@
 
-# When launching your EC2 instances, you can provide the respective script as the user data. The instance will execute the user data script during startup and install Minikube automatically.
+# Implemetn Shell scripts for EC2 User data level
+
+When launching your EC2 instances, you can provide the respective script as the user data. The instance will execute the user data script during startup and install Minikube automatically.
 
 Note that these scripts assume that the instances have appropriate access to the internet to download the necessary packages and dependencies. Additionally, make sure to follow the security best practices and configure the EC2 instances and network settings according to your specific requirements.
 
@@ -8,7 +10,7 @@ Please keep in mind that Minikube is primarily intended for local development an
 
 
 
-=======================================================================================================================================================
+=================================================================================================================================================================================
 
 #
 # Start Minikube:
